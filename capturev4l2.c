@@ -20,6 +20,7 @@
 #define CAM_FPS		30
 
 uint8_t *buffer;
+// Credit to: http://www.jayrambhia.com/blog/capture-v4l2
  
 static int xioctl(int fd, int request, void *arg)
 {
