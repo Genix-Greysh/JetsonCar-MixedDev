@@ -9,7 +9,7 @@
 int main(int argc, char *argv[])
 {
 int uart_fd;
-char *uart_name = "/dev/ttyTHS2";
+char *uart_name = "/dev/ttyTHS2"; // ttyTHS2 = Jetson UART1 located on Serial Port Header J17
 char sample_test_uart[25] = {'S', 'A', 'M', 'P', 'L', 'E', '\n', '\r'};
 struct termios uart_attr;
 uart_attr.c_ospeed = 0;
